@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  width: 1280px;
+  height: 73px;
+}
+.titulo {
+  display: flex;
+  width: 221px;
+  height: 59px;
+  margin: 7px 529px 7px 530px;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  height: 727px;
+}
+.iguana_header {
+  width: 1280px;
+  height: 727px;
+  opacity: 1;
+}
+main {
+  width: 1280px;
+  height: 348px;
+}
+
+.info {
+  width: 475px;
+  height: 197px;
+  margin: 76px 53px 75px 150px;
+  font-weight: 100;
+}
+
+.iguana_main {
+  width: 399px;
+  height: 237px;
+  margin: 45px 150px 66px 53px;
+}
+.centro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.caract {
+  background-color: #1e1a13;
+  width: 1280px;
+  height: 348px;
+  text-align: center;
+  padding: 20px;
+}
+.ccont {
+  width: 356px;
+  height: 47px;
+  margin: 75px 460.5px 50px 463.5px;
+  font-size: 1.5em;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.galería {
+  width: 1280px;
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.iguana1 {
+  width: 316px;
+  height: 202px;
+  margin: 73px 8px 73px 150px;
+}
+.iguana2 {
+  width: 316px;
+  height: 202px;
+  margin: 73px 8px 73px 8px;
+}
+.iguana3 {
+  width: 316px;
+  height: 202px;
+  margin: 73px 150px 73px 8px;
+}
+
+footer {
+  width: 1280px;
+  height: 102px;
+  background-color: #1e1a13;
+  display: flex;
+  justify-content: center;
+}
+.foot {
+  width: 682px;
+  height: 24px;
+  margin: 19.5px 299px 19.5px 299px;
+  font-size: 1.2em;
+}
