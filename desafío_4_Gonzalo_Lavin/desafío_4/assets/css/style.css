@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.barra {
+  background-color: #28a745;
+}
+.grises {
+  color: #707070;
+}
+.blancos {
+  color: #fff;
+}
+.light {
+  font-weight: 300;
+}
+.verde {
+  color: #28a745;
+}
+.precios {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  height: 53.5px;
+}
+.nuevo {
+  font-size: 1.5em;
+}
+
+.ft {
+  display: flex;
+  justify-content: center;
+}
+.env {
+  display: flex;
+  justify-content: center;
+}
