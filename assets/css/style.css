@@ -33,17 +33,10 @@ header img {
   max-width: 100px;
   border-radius: 50%;
   margin-top: 10px;
-  animation: rotate 5s linear infinite;
+
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 
 /* Nombre y resumen */
 h2 {
@@ -99,10 +92,12 @@ a:hover {
 }
 
 /* Tarjetas de proyectos */
+/* Tarjetas de proyectos más pequeñas */
 .card {
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  margin: 10px;
 }
 
 .card:hover {
@@ -129,4 +124,24 @@ a:hover {
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+/* Establecer una cuadrícula de tarjetas */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 calc(48% - 20px);
+  max-width: calc(48% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 1 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
 }
