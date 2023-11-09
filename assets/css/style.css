@@ -87,11 +87,9 @@ a {
 
 a:hover {
   color: #0056b3;
-  transform: scale(1.1);
-  transition: transform 0.3s;
+  
 }
 
-/* Tarjetas de proyectos */
 /* Tarjetas de proyectos más pequeñas */
 .card {
   border: none;
@@ -129,8 +127,7 @@ a:hover {
 /* Establecer una cuadrícula de tarjetas */
 .card-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+flex-direction: row;  justify-content: space-between;
 }
 
 .card {
@@ -144,4 +141,8 @@ a:hover {
     flex: 0 1 calc(100% - 20px);
     max-width: calc(100% - 20px);
   }
+}
+#proyects-contaier{
+  display: flex;
+  flex-direction: row;
 }

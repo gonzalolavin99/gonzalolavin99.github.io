@@ -1,15 +1,15 @@
 const proyectos = [
     {
-      title: "Proyecto HTML",
-      description: "Presentación proyecto en HTML",
-      imageSrc: "assets/imgs/html.jpg",
-      link: "#",
+      title: "To-do List",
+      description: "To-Do List",
+      imageSrc: "assets/imgs/to_do_list.png",
+      link: "py_metodos",
     },
     {
-      title: "Proyecto CSS",
-      description: "Proyecto usando por primera vez CSS",
-      imageSrc: "assets/imgs/proyecto_css.jpg",
-      link: "Desafío Semana 2 CSS Gonzalo Lavín/Landing Page/index.html",
+      title: "APIS",
+      description: "Proyecto usando por primera vez APIS",
+      imageSrc: "assets/imgs/apis.png",
+      link: "apis_py",
     },
     {
       title: "Proyecto Flex",
@@ -25,7 +25,7 @@ const proyectos = [
     },
   ];
   
-  const projectsContainer = document.querySelector(".row-cols-1"); // Selecciona el contenedor
+  const projectsContainer = document.querySelector(".row-cols-1"); 
   
   proyectos.forEach((project) => {
     const projectCard = document.createElement("div");
@@ -42,12 +42,10 @@ const proyectos = [
       </div>
     `;
   
-    projectsContainer.appendChild(projectCard); // Agrega la tarjeta de proyecto al contenedor
+    projectsContainer.appendChild(projectCard); 
   });
-  // Obtén el elemento donde deseas cargar el contenido
 const cvContent = document.getElementById("cv-content");
 
-// HTML que deseas agregar
 const cvHTML = `
   <header>
     <h1 class="titulo">Currículum Vitae</h1>
@@ -91,5 +89,5 @@ const cvHTML = `
   </a>
 `;
 
-// Agrega el HTML al elemento cvContent
+
 cvContent.innerHTML = cvHTML;
